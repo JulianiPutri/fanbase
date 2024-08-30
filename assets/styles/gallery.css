@@ -1,0 +1,19 @@
+.gallery-container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.gallery-item{
+    margin: 5px;
+    flex-grow: 1;
+    width: 50%;
+}
+.gallery-container img {
+    margin: 5px;
+    width: 100%;
+}
+@media screen and (max-width: 600px) {
+    .gallery img{
+        width: 100%;
+    }
+}

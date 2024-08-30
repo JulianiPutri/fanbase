@@ -1,0 +1,34 @@
+.container-profile{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+.profile-left{
+    width: 32%;
+    flex-direction: column;
+    float: left;
+    display: flex;
+}
+.profile-right{
+    margin-left: 15px;
+    width: 65%;
+    float: right;
+}
+.profile-left img{
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    margin: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.profile-right table th{
+   text-align: left;
+   padding-right: 15px;
+}
+
+@media screen and (max-width: 800px) {
+    .profile-left, .profile-right {
+        width: 100%;
+        padding: 0;
+    }
+}
